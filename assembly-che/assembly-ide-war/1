@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JSON Sample :: Che Assembly :: Compiling GWT Application 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:tree (default-cli) @ assembly-ide-war ---
+[INFO] my.plugin.che:assembly-ide-war:war:0.1-SNAPSHOT
+[INFO] +- org.eclipse.che.core:che-core-basic-ide:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- com.google.guava:guava:jar:20.0:compile
+[INFO] |  +- com.google.guava:guava-gwt:jar:20.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.12:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  +- com.google.gwt:gwt-servlet:jar:2.8.0:compile
+[INFO] |  +- com.google.gwt:gwt-user:jar:2.8.0:compile
+[INFO] |  |  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile
+[INFO] |  |  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.1:compile
+[INFO] |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] |  |  \- org.w3c.css:sac:jar:1.3:compile
+[INFO] |  +- com.google.gwt.inject:gin:jar:2.1.2:compile
+[INFO] |  +- com.google.inject:guice:jar:4.1.0:compile
+[INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:compile
+[INFO] |  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+[INFO] |  +- javax.inject:javax.inject:jar:1:compile
+[INFO] |  +- org.eclipse.che.core:che-core-commons-gwt:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO] |  |  \- com.google.gwt:gwt-elemental:jar:2.8.0:compile
+[INFO] |  +- org.eclipse.che.core:che-core-commons-inject:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- com.google.inject.extensions:guice-servlet:jar:4.1.0:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-commons-lang:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+[INFO] |  |  |  \- org.apache.commons:commons-compress:jar:1.9:compile
+[INFO] |  |  +- org.everrest:everrest-integration-guice:jar:1.13.3:compile
+[INFO] |  |  |  \- org.everrest:everrest-core:jar:1.13.3:compile
+[INFO] |  |  |     +- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+[INFO] |  |  |     \- javax.mail:mail:jar:1.4.4:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.6:compile
+[INFO] |  +- org.eclipse.che.core:che-core-commons-j2ee:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- org.eclipse.che.core:che-core-ide-api:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-auth:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  |  +- com.google.code.gson:gson:jar:2.3.1:compile
+[INFO] |  |  |  +- com.google.http-client:google-http-client:jar:1.19.0:compile
+[INFO] |  |  |  +- com.google.http-client:google-http-client-jackson2:jar:1.19.0:compile
+[INFO] |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile
+[INFO] |  |  |  +- com.google.oauth-client:google-oauth-client:jar:1.19.0:compile
+[INFO] |  |  |  +- io.swagger:swagger-annotations:jar:1.5.9:compile
+[INFO] |  |  |  \- org.eclipse.che.core:che-core-commons-json:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-core:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  |  +- net.java.dev.jna:jna:jar:4.1.0:compile
+[INFO] |  |  |  \- org.everrest:everrest-websockets:jar:1.13.3:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-debug-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-dto:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  |  \- org.reflections:reflections:jar:0.9.9:compile
+[INFO] |  |  |     \- org.javassist:javassist:jar:3.18.2-GA:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-factory-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-git-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-machine-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-model:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-project-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-project-templates-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-ssh-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-api-user-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  \- org.eclipse.che.core:che-core-api-workspace-shared:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- org.eclipse.che.core:che-core-ide-app:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  +- org.eclipse.che.core:che-core-ide-generators:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  |  +- commons-io:commons-io:jar:2.4:compile
+[INFO] |  |  |  \- org.antlr:ST4:jar:4.0.7:compile
+[INFO] |  |  |     \- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] |  |  \- org.eclipse.che.core:che-core-ide-ui:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- org.eclipse.che.core:che-core-orion-editor:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  \- org.eclipse.che.plugin:che-plugin-requirejs:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |     \- org.webjars:requirejs:jar:2.1.15:runtime
+[INFO] |  +- org.eclipse.che.lib:che-orion-editor:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- org.eclipse.che.plugin:che-plugin-machine-ext-client:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  |  \- org.eclipse.che.plugin:plugin-terminal-ui:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- org.eclipse.che.plugin:che-plugin-product-info:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  \- org.eclipse.che.plugin:che-plugin-sdk-env-local:jar:5.6.0-SNAPSHOT:compile
+[INFO] +- my.plugin:plugin-json-ide:jar:0.1-SNAPSHOT:compile
+[INFO] |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  +- org.eclipse.che.core:che-core-commons-annotations:jar:5.6.0-SNAPSHOT:compile
+[INFO] |  +- my.plugin:plugin-json-shared:jar:0.1-SNAPSHOT:compile
+[INFO] |  \- org.vectomatic:lib-gwt-svg:jar:0.5.12:compile
+[INFO] \- org.eclipse.che:assembly-ide-war:war:5.6.0-SNAPSHOT:runtime
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.533 s
+[INFO] Finished at: 2017-03-29T16:55:34+03:00
+[INFO] Final Memory: 27M/437M
+[INFO] ------------------------------------------------------------------------
